@@ -16,6 +16,7 @@ export default function Layout({ config, children }) {
               width={250}
               height={250}
               className="logotype"
+              alt="Logotype"
             />
           </Link>
         </div>
