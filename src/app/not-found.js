@@ -1,5 +1,16 @@
+import Link from "next/link";
+
 export default function NotFound() {
-    //Fetch the 404 page from storyblok (this component works as server component aswell)
-    //update this component to render a 404 page
-    return <h1>404 notfound</h1>
+  return (
+    <div className="not-found-container">
+      <h1>404</h1>
+      <h2>Oops! Page Not Found</h2>
+      <p>
+        We couldn't find the page you're looking for.
+      </p>
+      <a href="/" className="column-link">
+        Go back to the homepage
+      </a>
+    </div>
+  );
 }
